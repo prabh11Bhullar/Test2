@@ -28,22 +28,22 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    public void dayMustBeGreaterThan0()
-    {
-        //R1 number of days must be >0
-        Infection x = new Infection();
-        double actualOutput=x.calculateTotalInfected(-12);
-
-        Assert.assertEquals(-1,actualOutput);
-    }
-//    public  void daysWithin5()
+//    public void dayMustBeGreaterThan0()
 //    {
-//        //R2 the virus infects instructors at the rate of 5 instructors/day
+//        //R1 number of days must be >0
 //        Infection x = new Infection();
-//        double actualOutput=x.calculateTotalInfected(2);
-//        Assert.assertEquals(10,actualOutput);
+//        double actualOutput=x.calculateTotalInfected(-12);
 //
+//        Assert.assertEquals(-1,actualOutput);
 //    }
+    public  void daysWithin5()
+    {
+        //R2 the virus infects instructors at the rate of 5 instructors/day
+        Infection x = new Infection();
+        double actualOutput=x.calculateTotalInfected(2);
+        Assert.assertEquals(10,actualOutput);
+
+    }
 //
 //    public  void daysAfter7()
 //    {
