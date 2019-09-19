@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         //R1 number of days must be >0
         Infection x = new Infection();
         double actualOutput=x.calculateTotalInfected(-12);
+
         Assert.assertEquals(-1,actualOutput);
     }
 //    public  void daysWithin5()
