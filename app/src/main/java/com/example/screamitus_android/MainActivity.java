@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
         //R2 the virus infects instructors at the rate of 5 instructors/day
         Infection x = new Infection();
         double actualOutput=x.calculateTotalInfected(2);
+
         Assert.assertEquals(10,actualOutput);
 
     }
