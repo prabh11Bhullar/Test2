@@ -37,24 +37,24 @@ public class MainActivity extends AppCompatActivity {
 //        Assert.assertEquals(-1,actualOutput);
 //    }
 
-    public  void daysWithin5()
-    {
-        //R2 the virus infects instructors at the rate of 5 instructors/day
-        Infection x = new Infection();
-        double actualOutput=x.calculateTotalInfected(2);
-
-        Assert.assertEquals(10,actualOutput);
-
-    }
-//
-//    public  void daysAfter7()
+//    public  void daysWithin5()
 //    {
-//        //R3 after 7 days, infection rate changes to 8 instructor
+//        //R2 the virus infects instructors at the rate of 5 instructors/day
 //        Infection x = new Infection();
-//        double actualOutput=x.calculateTotalInfected(9);
-//        Assert.assertEquals(51,actualOutput);
+//        double actualOutput=x.calculateTotalInfected(2);
+//
+//        Assert.assertEquals(10,actualOutput);
 //
 //    }
+//
+    public  void daysAfter7()
+    {
+        //R3 after 7 days, infection rate changes to 8 instructor
+        Infection x = new Infection();
+        double actualOutput=x.calculateTotalInfected(9);
+        Assert.assertEquals(51,actualOutput);
+
+    }
 
 
 }
