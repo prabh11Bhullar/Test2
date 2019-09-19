@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
 //        // uncomment this code when you do your UI tests
 //        Infection infection = new Infection();
 //        int numInfected = infection.calculateTotalInfected(days);
-//        resultsLabel.setText(String.valueOf(numInfected));
+//        resultsLabel.setText(String.valueOf(numInfected) + " instructors infected");
 
     }
 }
